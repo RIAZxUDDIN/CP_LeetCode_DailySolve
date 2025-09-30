@@ -6,14 +6,22 @@ I’m solving them in **Java** using IntelliJ IDEA, and tracking progress here f
 ---
 
 ## 📅 Daily Progress
+See my progress on this google sheet. You will find the problem list and links on this sheet.
 
-### Week 1
-- **Day 01** ✅ Two Sum
-- **Day 02** ⬜ Coming soon
-- **Day 03** ⬜ Coming soon
+[Google sheet for Progress Tracker and Problem List.](https://docs.google.com/spreadsheets/d/1DkL_n3pIwbK7E2OLJ0E3GcYLOBHsvwaOF8NPF0IS_Qo/edit?usp=sharing)
 
-### Week 2
-- To be updated...
+[//]: # (### Week 1)
+
+[//]: # (- **Day 01** ✅ Two Sum)
+
+[//]: # (- **Day 02** ⬜ Coming soon)
+
+[//]: # (- **Day 03** ⬜ Coming soon)
+
+[//]: # ()
+[//]: # (### Week 2)
+
+[//]: # (- To be updated...)
 
 ---
 
