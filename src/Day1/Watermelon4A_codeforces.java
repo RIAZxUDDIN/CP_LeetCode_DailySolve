@@ -2,7 +2,7 @@ package Day1;
 
 import java.util.Scanner;
 
-public class watermelon_4A_codeforces {
+public class Watermelon4A_codeforces {
     public static void main(String[] args) {
         //problem: https://codeforces.com/problemset/problem/4/A
         Scanner sc = new Scanner(System.in);
