@@ -1,41 +1,16 @@
 # ==========================
 # Java (IntelliJ IDEA)
 # ==========================
-
-# IntelliJ project files
 .idea/
 *.iml
-*.ipr
-*.iws
-
-# Compiled class files
+out/
 *.class
 
-# Java package distributions
-*.jar
-*.war
-*.ear
-
-# JVM crash logs
-hs_err_pid*
-replay_pid*
-
-# Gradle
-.gradle/
-build/
-!gradle-wrapper.jar
-
-# Maven
-target/
-
-# IntelliJ build output
-out/
-
 # ==========================
-# C / C++ (VS Code)
+# C / C++ (VS Code / GCC / Clang)
 # ==========================
 
-# Compiled object files
+# Object files
 *.o
 *.obj
 
@@ -43,22 +18,20 @@ out/
 *.gch
 *.pch
 
-# Compiled dynamic libraries
+# Compiled libraries
 *.so
 *.dylib
 *.dll
-
-# Compiled static libraries
 *.a
 *.lib
 
-# Executables
+# Executables (Mac/Linux/Windows)
 *.exe
 *.out
 *.app
 a.out
 
-# Build directories
+# Build folders
 bin/
 build/
 dist/
@@ -66,10 +39,10 @@ CMakeFiles/
 cmake-build-*/
 CMakeCache.txt
 
-# Debug / core dumps
-*.dSYM/
-*.stackdump
-*.core
+# Ignore executables with no extension in cpp folder (like 'DominoPiling')
+cpp/*/*
+!cpp/**/*.cpp
+!cpp/**/*.h
 
 # ==========================
 # VS Code
@@ -77,18 +50,16 @@ CMakeCache.txt
 .vscode/
 
 # ==========================
-# OS specific
+# OS-specific
 # ==========================
 .DS_Store
 Thumbs.db
 
 # ==========================
-# General
+# General temporary
 # ==========================
-# Backup / temp files
+*.log
 *~
 *.swp
 *.swo
 
-# Logs
-*.log
