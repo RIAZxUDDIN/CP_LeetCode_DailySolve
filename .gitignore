@@ -31,7 +31,6 @@ bin/
 .idea/
 *.iml
 # C++ build
-bin/
 build/
 *.o
 *.exe
