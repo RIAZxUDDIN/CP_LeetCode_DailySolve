@@ -30,3 +30,9 @@ bin/
 # IntelliJ project files
 .idea/
 *.iml
+# C++ build
+bin/
+build/
+*.o
+*.exe
+*.out
