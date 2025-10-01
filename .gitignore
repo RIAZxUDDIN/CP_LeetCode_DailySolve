@@ -2,6 +2,8 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+.idea/
+*.iml
 
 ### Eclipse ###
 .apt_generated
@@ -11,9 +13,6 @@ out/
 .settings
 .springBeans
 .sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/
@@ -27,11 +26,10 @@ bin/
 
 ### Mac OS ###
 .DS_Store
-# IntelliJ project files
-.idea/
-*.iml
-# C++ build
-build/
-*.o
-*.exe
-*.out
+
+### C++ build (scoped to cpp folder only) ###
+cpp/**/bin/
+cpp/**/build/
+cpp/**/*.o
+cpp/**/*.exe
+cpp/**/*.out
